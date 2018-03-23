@@ -12,9 +12,9 @@ def selection_sort(arr, n):
 
 
 n = 10000
-a = SortTestHelper.generate_random_list(n, 0, n)
-SortTestHelper.test_sort('Selection Sort', selection_sort, a, n)
+arr1 = SortTestHelper.generate_random_list(n, 0, n)
+SortTestHelper.test_sort('Selection Sort', selection_sort, arr1, n)
 
 n = 20000
-a = SortTestHelper.generate_random_list(n, 0, n)
-SortTestHelper.test_sort('Selection Sort', selection_sort, a, n)
+arr2 = SortTestHelper.generate_random_list(n, 0, n)
+SortTestHelper.test_sort('Selection Sort', selection_sort, arr2, n)
