@@ -56,5 +56,5 @@ n = 200000
 arr1 = SortTestHelper.generate_random_list(n, 0, n)
 arr2 = arr1[:]
 print('n = ' + str(n))
-SortTestHelper.test_sort('Selection Sort', merge_sort, arr1, n)
-SortTestHelper.test_sort('Insertion Sort', merge_sort2, arr2, n)
+SortTestHelper.test_sort('Merge Sort', merge_sort, arr1, n)
+SortTestHelper.test_sort('Merge Sort2', merge_sort2, arr2, n)
