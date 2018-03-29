@@ -22,6 +22,13 @@ def generate_random_list(n, range_l, range_r):
     return arr
 
 
+def is_sorted(arr, n):
+    for i in range(n-1):
+        if arr[i] > arr[i + 1]:
+            return False
+    return True
+
+
 def test_sort(sort_name, sort, arr, n):
     start = time.clock()
     sort(arr, n)
